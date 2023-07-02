@@ -47,18 +47,42 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>
+                    <p class="desc">
                         I am a motivated individual with a keen interest in Software development, 
                         Possessing good interpersonal and analytical skills, who wish to use my 
                         technical knowledge catering to the needs of the Organization.
+                        I wish to work with a diverse team that contributes towards the company's vision and goals.
                     </p>
-
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick= "openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick= "openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python ,C ,C++, JavaScript, Dart, Typescript </li>
+                            <li><span>Database Management</span><br>SQL, MySQL, Firebase, Sanity, MongoDB </li>
+                            <li><span>Web Development</span><br>HTML/CSS, Django, .NET, MERN Stack, Vue, Flutter, GrapQL</li>
+                            <li><span>Other Technologies</span><br>Git, AWS, GCP, Docker, Rasa Framework, ANN, CNN, TensorFlow, NLU, Linux OS, Arduino/Raspberry Pi, Nvidia Jetson Nano</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>California State University, Chico <p>Master of Science in Computer Science</p></span><br>Data Structures and Algo, 
+                                Software Design and Maintenance, Applied Machine Learning, Web Development, Algorithms
+                                and Computability, Mobile Application Development, Applied Computer Vision. </li>
+                            <li><span>Visvesvaraya Technological University, <p>Bachelor of Engineering in Computer Science</p></span><br>Operating Systems, Machine Learning,
+                                Data Structures and Applications, Computer Organization,
+                                 Cloud Computing, DBMS, System Software and Compiler Design, Computer Architecture.</li>
+                          </ul>
+                    </div>
+                    </div>
                 </div>
-                
+
             </div>
         </div>
+        <!--About Section Close-->
     </div>
 
-      <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
