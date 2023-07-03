@@ -215,7 +215,7 @@ nav ul li a:hover::after{
 
 .experience-list div a{
     text-decoration: none;
-    color: rgb(7, 104, 160);
+    color: #ff004f;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -321,7 +321,7 @@ nav ul li a:hover::after{
 
 /*---------------Contact Section Open--------------*/
 #contact{
-    padding-top: 10%;
+    padding-top: 14%;
 }
 .contact-left{
     margin-left: 5%;
@@ -393,3 +393,57 @@ form .btn2{
     cursor: pointer;
 }
 /*---------------Contact Section Close--------------*/
+
+/*Footer*/
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(7, 104, 160);
+    min-height: 100px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+
+footer .menu li{
+    list-style: none;
+}
+
+footer .menu li a{
+    font-size: 1.2em;
+    color: #ababab;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .quote{
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
