@@ -105,8 +105,7 @@ nav ul li a:hover::after{
 /*----About Section Open-----*/
 
 #about{
-    padding-top: 80px;
-    padding: 60px 0;
+    padding: 160px 0;
     color: white;
 }
 .row{
